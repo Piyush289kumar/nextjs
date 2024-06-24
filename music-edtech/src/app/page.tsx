@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { Navbar } from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <h1 className="text-4xl text-center font-bold mt-36 bg-zinc-900">Piyush Kumar Raikwar</h1>
+    <Navbar />
   );
 }
